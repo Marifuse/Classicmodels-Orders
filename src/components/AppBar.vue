@@ -54,7 +54,7 @@
           <v-list-item>
             <v-btn
               text
-              to="/"
+              to="/sucursales"
             >
               <span class="mr-1">Sucursales</span>
               <v-icon>mdi-car</v-icon> 
