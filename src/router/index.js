@@ -19,6 +19,11 @@ Vue.use(VueRouter)
     component: () => import(/* webpackChunkName: "Login" */ '../views/Login.vue')
   },
   {
+    path: '/sucursales',
+    name: 'Sucursales',
+    component: () => import(/* webpackChunkName: "Login" */ '../views/Sucursales.vue')
+  },
+  {
     path: '/dashboard',
     name: 'Dashboard',
     component: () => import(/* webpackChunkName: "Apod" */ '../views/Dashboard.vue'),

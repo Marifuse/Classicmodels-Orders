@@ -37,7 +37,7 @@
               to="/dashboard"
             >
               <span class="mr-1">Dashboard</span>
-              <v-icon>mdi-chart-bubble</v-icon> 
+              <v-icon>mdi-chart-line-variant</v-icon> 
             </v-btn>
           </v-list-item>
 
@@ -48,6 +48,16 @@
             >
               <span class="mr-1">Home</span>
               <v-icon>mdi-home</v-icon>
+            </v-btn>
+          </v-list-item>
+
+          <v-list-item>
+            <v-btn
+              text
+              to="/"
+            >
+              <span class="mr-1">Sucursales</span>
+              <v-icon>mdi-car</v-icon> 
             </v-btn>
           </v-list-item>
         </v-list-item-group>
