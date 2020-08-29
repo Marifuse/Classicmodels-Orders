@@ -15,7 +15,7 @@
       ></v-carousel-item>
       </v-carousel>
       <!-- Cabecera -->
-      <header class="text-center header__container">
+      <header class="text-center header__container pt-5 pb-5">
         <h1>⭐Classicmodels Orders⭐</h1>
         <h2>¿Quieres conocer nuestros Autos?</h2>
         <h4>Ven y descúbrelo</h4>
@@ -52,3 +52,21 @@ export default {
   name: 'Home',
 }
 </script>
+
+<style lang="scss">
+// Header
+.header__container {
+  background-color: rgb(8, 8, 8);
+  color: #FFF;
+}
+// Sección botones
+.btn__container {
+  margin: 0;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/usser-fe5a8.appspot.com/o/auto-5.jpg?alt=media&token=f1613904-808b-460a-bd09-25d01d89ec06) !important;
+  background-size: cover !important;
+}
+.btn__black {
+  padding-top: 20em;
+  padding-bottom: 30em;
+}
+</style>
