@@ -21,13 +21,13 @@ Vue.use(VueRouter)
   {
     path: '/sucursales',
     name: 'Sucursales',
-    component: () => import(/* webpackChunkName: "Login" */ '../views/Sucursales.vue')
+    component: () => import(/* webpackChunkName: "Sucursales" */ '../views/Sucursales.vue')
   },
   {
     path: '/dashboard',
     name: 'Dashboard',
-    component: () => import(/* webpackChunkName: "Apod" */ '../views/Dashboard.vue'),
-    alias: ['/usuario', '/datos'],
+    component: () => import(/* webpackChunkName: "Dashboard" */ '../views/Dashboard.vue'),
+    alias: ['/informacion', '/datos'],
     meta: {
       requireLogin: true // El meta tiene relación con la función guardia (se representa con una respuesta booleana)
     }
