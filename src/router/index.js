@@ -33,6 +33,14 @@ Vue.use(VueRouter)
     }
   },
   {
+    path: '/ordenes',
+    name: 'Ordenes',
+    component: () => import(/* webpackChunkName: "Ordenes" */ '../views/Ordenes.vue'),
+    meta: {
+      requireLogin: true // El meta tiene relación con la función guardia (se representa con una respuesta booleana)
+    }
+  },
+  {
     path: '*', // Este tipo de path con asterisco se usa para generar un not found o error 404
     name: 'NotFound',
     component: () => import(/* webpackChunkName:"notfound" */ '../views/NotFound') //Jamas debe ir con espacios

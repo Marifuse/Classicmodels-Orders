@@ -44,13 +44,13 @@
           <v-list-item>
             <v-btn
               text
-              to="/home"
+              to="/ordenes"
             >
-              <span class="mr-1">Home</span>
-              <v-icon>mdi-home</v-icon>
+              <span class="mr-1">Ordenes</span>
+              <v-icon>mdi-content-paste</v-icon> 
             </v-btn>
           </v-list-item>
-
+          
           <v-list-item>
             <v-btn
               text
@@ -58,6 +58,16 @@
             >
               <span class="mr-1">Sucursales</span>
               <v-icon>mdi-car</v-icon> 
+            </v-btn>
+          </v-list-item>
+
+          <v-list-item>
+            <v-btn
+              text
+              to="/home"
+            >
+              <span class="mr-1">Home</span>
+              <v-icon>mdi-home</v-icon>
             </v-btn>
           </v-list-item>
         </v-list-item-group>
