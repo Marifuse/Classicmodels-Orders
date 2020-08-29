@@ -25,7 +25,7 @@
         <div class="text-center btn__black">
           <v-btn rounded color="black" dark to="/dashboard">🌟 Dashboard 🌟</v-btn>
           <v-btn rounded color="black" dark to="/ordenes">🌟 Ordenes 🌟</v-btn>
-          <v-btn rounded color="black" dark to="/sucursales">🌟 Ordenes 🌟</v-btn>
+          <v-btn rounded color="black" dark to="/sucursales">🌟 Sucursales 🌟</v-btn>
         </div>
       </section>
   </div>
